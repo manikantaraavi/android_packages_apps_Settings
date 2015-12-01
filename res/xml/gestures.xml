@@ -105,4 +105,10 @@
         android:summary="@string/double_tap_to_sleep_summary"
         android:defaultValue="true" />
 
+    <org.proton.support.preference.SystemSettingSwitchPreference
+	android:key="volume_button_music_control"
+        android:summary="@string/volume_rocker_music_controls_summary"
+        android:title="@string/volume_rocker_music_controls_title"
+        android:defaultValue="true" />
+
 </PreferenceScreen>
