@@ -142,6 +142,12 @@
         android:summary="@string/notification_headers_summary"
         android:defaultValue="true" />
 
+    <!-- Heads up -->
+    <Preference
+        android:key="heads_up_notifications"
+        android:title="@string/heads_up_notifications"
+        android:fragment="com.android.settings.HeadsUpSettings" />
+
         <org.proton.support.preference.SystemSettingSwitchPreference
            android:key="less_boring_heads_up"
            android:title="@string/less_boring_heads_up_title"

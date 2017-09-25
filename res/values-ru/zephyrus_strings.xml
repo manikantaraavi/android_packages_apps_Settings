@@ -309,4 +309,14 @@
     <string name="descendant_idle_manager_title">Менеджер Idle</string>
     <string name="descendant_idle_manager_summary">Алгоритм по увеличению времени работы от батареи (рекомендуется включить)</string>
 
+    <!-- Heads up -->
+    <string name="heads_up_notifications">Всплывающие уведомления</string>
+    <string name="summary_heads_up_enabled">Включены</string>
+    <string name="summary_heads_up_disabled">Выключены</string>
+    <string name="add_heads_up_package">Добавить приложение</string>
+    <string name="add_heads_up_stoplist_summary">Запретить всплывающие уведомления когда открыты эти приложения</string>
+    <string name="heads_up_stoplist_title">Список приложений</string>
+    <string name="profile_choose_app">Выбрать приложение</string>
+    <string name="dialog_delete_title">Удалить</string>
+    <string name="dialog_delete_message">Удалить выбранный элемент?</string>
 </resources>
