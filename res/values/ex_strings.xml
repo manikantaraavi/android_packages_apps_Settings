@@ -122,4 +122,7 @@
     <!-- OOS style material dismiss all button for notifications -->
     <string name="notification_material_dismiss_button_title">Material dimiss button</string>
     <string name="notification_material_dismiss_button_summary">Replace clear all notification text with floating button</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 </resources>
