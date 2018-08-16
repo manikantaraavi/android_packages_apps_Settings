@@ -24,6 +24,7 @@ import androidx.annotation.VisibleForTesting;
 import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.core.BasePreferenceController;
+import com.android.settings.deviceinfo.firmwareversion.BasebandFormatter;
 
 public class BasebandVersionPreferenceController extends BasePreferenceController {
 
@@ -41,7 +42,8 @@ public class BasebandVersionPreferenceController extends BasePreferenceControlle
 
     @Override
     public CharSequence getSummary() {
-        return SystemProperties.get(BASEBAND_PROPERTY,
-                mContext.getString(R.string.device_info_default));
+        return BasebandFormatter.getFormattedBaseband(
+                    SystemProperties.get(BASEBAND_PROPERTY,
+                    mContext.getString(R.string.device_info_default)));
     }
 }
