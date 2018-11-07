@@ -13,7 +13,6 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
 <resources>
 
     <color name="crypt_keeper_clock_background">#ff9a9a9a</color>
@@ -167,5 +166,6 @@
     <color name="palette_list_dark_mode_color_cyan">#78d9ec</color> <!-- Material Cyan 300 -->
     <color name="palette_list_dark_mode_color_blue">#8AB4F8</color> <!-- Material Blue 300 -->
     <color name="palette_list_dark_mode_color_purple">#c58af9</color> <!-- Material Purple 300 -->
-
+    <color name="disabled_text_color">#66000000</color>
 </resources>
+
