@@ -130,6 +130,12 @@
                 android:targetClass="com.android.cellbroadcastreceiver.CellBroadcastSettings"/>
         </com.android.settingslib.RestrictedPreference>
 
+        <org.proton.support.preference.SystemSettingSwitchPreference
+           android:key="less_boring_heads_up"
+           android:title="@string/less_boring_heads_up_title"
+           android:summary="@string/less_boring_heads_up_summary"
+           android:defaultValue="false" />
+
         <SwitchPreference
              android:key="silent_icons"
              android:order="19"
