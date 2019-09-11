@@ -214,6 +214,10 @@
             android:summary="@string/wake_when_plugged_or_unplugged_summary"
             android:defaultValue="true" />
 
+        <ListPreference
+            android:key="android.theme.customization.font"
+            android:title="@string/theme_customization_font_title"/>
+
     <org.proton.support.preference.CardviewPreference
         android:key="monet"
         android:fragment="com.android.settings.theming"
