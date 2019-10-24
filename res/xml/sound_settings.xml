@@ -219,4 +219,17 @@
     <SwitchPreference
         android:key="screenshot_shutter_sound"
         android:title="@string/screenshot_shutter_sound_title" />
+
+    <PreferenceCategory
+        android:key="lockscreen_visualizer_options"
+        android:title="@string/lockscreen_visualizer_title" >
+
+        <org.proton.support.preference.SecureSettingSwitchPreference
+            android:key="lockscreen_visualizer_enabled"
+            android:title="@string/lockscreen_visualizer_enable"
+            android:summary="@string/lockscreen_visualizer_enable_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
