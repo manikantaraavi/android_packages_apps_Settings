@@ -35,6 +35,11 @@
             settings:searchable="false"
             settings:controller="com.android.settings.biometrics.face.FaceSettingsLockscreenBypassPreferenceController" />
 
+     <Preference
+        android:key="carrier_label"
+        android:fragment="com.android.settings.CarrierLabel"
+        android:title="@string/carrier_label_settings_title" />
+
         <com.android.settingslib.RestrictedSwitchPreference
             android:key="security_lockscreen_add_users_when_locked"
             android:title="@string/user_add_on_lockscreen_menu"
