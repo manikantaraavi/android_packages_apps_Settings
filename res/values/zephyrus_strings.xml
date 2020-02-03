@@ -76,6 +76,8 @@
     <string name="ambient_notification_color_mode_custom">@string/ambient_notification_light_color_title</string>
     <string name="ambient_notification_light_color_title">Custom color</string>
     <string name="unit_seconds">seconds</string>
+    <string name="pulse_ambient_light_show_always_title">Show always</string>
+    <string name="pulse_ambient_light_show_always_summary">Show lights for all doze events and not just notifications</string>
 
     <string name="gesture_navbar_length_title">Gesture navbar length</string>
     <string name="gesture_navbar_radius_title">Gesture navbar Radius</string>
@@ -328,4 +330,5 @@
     <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
     <string name="heads_up_stoplist_title">Stoplist</string>
     <string name="heads_up_blacklist_title">Blacklist</string>
+
 </resources>
