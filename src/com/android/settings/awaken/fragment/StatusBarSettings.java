@@ -39,6 +39,7 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.awaken.preferences.SystemSettingSwitchPreference
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -76,6 +77,18 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
             return true;
 		}
         return false;
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        updateMasterPrefs();
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        updateMasterPrefs();
     }
 
     @Override
