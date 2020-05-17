@@ -38,7 +38,7 @@ import com.android.settings.awaken.preferences.SystemSettingMasterSwitchPreferen
 import com.android.settings.SettingsPreferenceFragment;
 
 import com.android.internal.logging.nano.MetricsProto;
-import com.android.settings.awaken.preferences.SystemSettingSwitchPreference
+import com.android.settings.awaken.preferences.SystemSettingMasterSwitchPreference;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -62,7 +62,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     }
 
     private void updateMasterPrefs() {
-        mNetworkTraffic = (SystemSettingSwitchPreference) findPreference(NETWORK_TRAFFIC);
+        mNetworkTraffic = (SystemSettingMasterSwitchPreference) findPreference(NETWORK_TRAFFIC);
         mNetworkTraffic.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
                 Settings.System.NETWORK_TRAFFIC_STATE, 0) == 1));
         mNetworkTraffic.setOnPreferenceChangeListener(this);
@@ -71,7 +71,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
 		if (preference == mNetworkTraffic) {
-            boolean value = (Boolean) newValue;
+            boolean value = (Boolean) objValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.NETWORK_TRAFFIC_STATE, value ? 1 : 0);
             return true;
