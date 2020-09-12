@@ -208,6 +208,10 @@
             android:key="android.theme.customization.font"
             android:title="@string/theme_customization_font_title"/>
 
+       <ListPreference
+            android:key="android.theme.customization.icon_pack"
+            android:title="@string/theme_customization_icon_pack_title"/>
+
     <org.proton.support.preference.CardviewPreference
         android:key="monet"
         android:fragment="com.android.settings.theming"
@@ -222,7 +226,6 @@
             android:fragment="com.android.settings.display.VrDisplayPreferencePicker"
             android:key="vr_display_pref"
             android:title="@string/display_vr_pref_title" />
-
     </PreferenceCategory>
 
 </PreferenceScreen>
