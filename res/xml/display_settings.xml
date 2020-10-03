@@ -190,6 +190,14 @@
         <ListPreference
             android:key="android.theme.customization.wifi_icon"
             android:title="@string/custom_wifi_bar_title" />
+
+    <Preference
+        android:key="display_cutout_force_fullscreen_settings"
+        android:title="@string/display_cutout_force_fullscreen_title"
+        android:summary="@string/display_cutout_force_fullscreen_summary"
+        android:fragment="com.android.settings.display.DisplayCutoutForceFullscreenSettings"
+        settings:controller="com.android.settings.display.DisplayCutoutForceFullscreenPreferenceController" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
