@@ -18,6 +18,21 @@ package com.android.settings.awaken.fragment;
 
 import android.os.Bundle;
 import android.content.Context;
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
+import android.os.UserHandle;
+import android.content.ContentResolver;
+import android.content.res.Resources;
+import androidx.preference.ListPreference;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
+import androidx.preference.PreferenceFragment;
+import androidx.preference.PreferenceManager;
+import androidx.preference.SwitchPreference;
+import androidx.preference.PreferenceScreen;
+import androidx.preference.Preference.OnPreferenceChangeListener;
+import android.provider.Settings;
 import com.android.settings.R;
 
 import com.android.settings.SettingsPreferenceFragment;
@@ -26,13 +41,41 @@ import com.android.internal.logging.nano.MetricsProto;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.HashMap;
+import java.util.Collections;
+public class StatusBarSettings extends SettingsPreferenceFragment implements
+        OnPreferenceChangeListener {
 
-public class StatusBarSettings extends SettingsPreferenceFragment {
+    private static final String NETWORK_TRAFFIC = "network_traffic_state";
+
+   private SystemSettingMasterSwitchPreference mNetworkTraffic;
 
     @Override
-    public void onCreate(Bundle bundle) {
-        super.onCreate(bundle);
+    public void onCreate(Bundle icicle) {
+        super.onCreate(icicle);
         addPreferencesFromResource(R.xml.status_bar_settings);
+
+        PreferenceScreen prefSet = getPreferenceScreen();
+
+    }
+
+    private void updateMasterPrefs() {
+        mNetworkTraffic = (SystemSettingSwitchPreference) findPreference(NETWORK_TRAFFIC);
+        mNetworkTraffic.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.NETWORK_TRAFFIC_STATE, 0) == 1));
+        mNetworkTraffic.setOnPreferenceChangeListener(this);
+    }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object objValue) {
+		if (preference == mNetworkTraffic) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.NETWORK_TRAFFIC_STATE, value ? 1 : 0);
+            return true;
+		}
+        return false;
     }
 
     @Override
