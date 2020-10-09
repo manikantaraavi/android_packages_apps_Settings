@@ -130,6 +130,12 @@
                 android:targetClass="com.android.cellbroadcastreceiver.CellBroadcastSettings"/>
         </com.android.settingslib.RestrictedPreference>
 
+    <org.proton.support.preference.SystemSettingSwitchPreference
+        android:key="notification_headers"
+        android:title="@string/notification_headers_title"
+        android:summary="@string/notification_headers_summary"
+        android:defaultValue="true" />
+
         <org.proton.support.preference.SystemSettingSwitchPreference
            android:key="less_boring_heads_up"
            android:title="@string/less_boring_heads_up_title"
