@@ -22,7 +22,7 @@ import androidx.preference.PreferenceViewHolder;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.android.settings.awaken.R;
+import com.android.settings.R;
 
 public class TwoTargetPreference extends Preference {
 

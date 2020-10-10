@@ -19,7 +19,7 @@ package com.android.settings.awaken.preferences;
 import android.content.Context;
 import android.util.AttributeSet;
 
-import com.sndroid.settings.awaken.preferences.SystemSettingsStore;
+import com.android.settings.awaken.preferences.SystemSettingsStore;
 
 public class SystemSettingMasterSwitchPreference extends MasterSwitchPreference {
 

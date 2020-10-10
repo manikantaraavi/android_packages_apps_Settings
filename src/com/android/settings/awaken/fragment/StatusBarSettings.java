@@ -34,11 +34,11 @@ import androidx.preference.PreferenceScreen;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import android.provider.Settings;
 import com.android.settings.R;
-
+import com.android.settings.awaken.preferences.SystemSettingMasterSwitchPreference;
 import com.android.settings.SettingsPreferenceFragment;
 
 import com.android.internal.logging.nano.MetricsProto;
-
+import com.android.settings.awaken.preferences.SystemSettingSwitchPreference
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;

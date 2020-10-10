@@ -43,7 +43,8 @@ public class NetworkTraffic extends SettingsPreferenceFragment implements
     private SystemSettingListPreference mIndicatorMode;
     private SystemSettingSeekBarPreference mThreshold;
     private SystemSettingSeekBarPreference mInterval;
-
+    private boolean ischecked;
+    private boolean enabled;
     private TextView mTextView;
     private View mSwitchBar;
 
@@ -89,7 +90,7 @@ public class NetworkTraffic extends SettingsPreferenceFragment implements
 
         mLocation.setEnabled(enabled);
         mIndicatorMode.setEnabled(enabled);
-        mThreshold.setEnabled(isChecked);
+        mThreshold.setEnabled(enable);
         mInterval.setEnabled(enabled);
     }
 
@@ -101,9 +102,9 @@ public class NetworkTraffic extends SettingsPreferenceFragment implements
         mSwitchBar.setActivated(isChecked);
 
         mLocation.setEnabled(isChecked);
-        mIndicatorMode.setEnabled(enabled);
+        mIndicatorMode.setEnabled(isChecked);
         mThreshold.setEnabled(isChecked);
-        mInterval.setEnabled(enabled);
+        mInterval.setEnabled(isChecked);
     }
 
     @Override
