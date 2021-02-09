@@ -94,6 +94,12 @@
         android:title="@string/ambient_display_category_triggers"
         android:order="1000">
 
+    <org.proton.support.preference.SystemSettingSwitchPreference
+        android:key="pulse_on_new_tracks"
+        android:title="@string/pulse_on_new_tracks_title"
+        android:summary="@string/pulse_on_new_tracks_summary"
+        android:defaultValue="true" />
+
        <Preference
             android:key="always_on_display_schedule"
             android:title="@string/always_on_display_schedule_title"
