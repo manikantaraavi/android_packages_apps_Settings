@@ -149,6 +149,12 @@
             android:title="@string/max_refresh_rate_title"
             android:summary="@string/summary_placeholder"
             settings:controller="com.android.settings.display.PeakRefreshRatePreferenceController"/>
+
+        <ListPreference
+            android:key="preferred_refresh_rate"
+            android:title="@string/preferred_refresh_rate_title"
+            android:summary="@string/summary_placeholder"
+            settings:controller="com.android.settings.display.PreferredRefreshRatePreferenceController" />
         
         <SwitchPreference
             android:key="pref_key_peak_refresh_rate"

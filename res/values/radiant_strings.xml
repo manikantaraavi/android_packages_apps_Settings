@@ -18,5 +18,6 @@
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Minimum refresh rate</string>
     <string name="max_refresh_rate_title">Maximum refresh rate</string>
+    <string name="preferred_refresh_rate_title">Preferred refresh rate</string>
 
 </resources>
