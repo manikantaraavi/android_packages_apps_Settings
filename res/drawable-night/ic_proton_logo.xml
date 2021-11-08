@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2021 The ProtonAOSP Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="150dp"
+    android:height="150dp"
+    android:viewportWidth="483"
+    android:viewportHeight="483">
+    <path
+        android:pathData="M 241.12 1.78 C 373.67 1.78 481.12 109.23 481.12 241.78 C 481.12 374.33 373.67 481.78 241.12 481.78 C 191.99 481.78 146.32 467.02 108.29 441.69 C 102.12 444.35 95.32 445.82 88.18 445.82 C 60.1 445.82 37.34 423.06 37.34 394.99 C 37.34 366.91 60.1 344.15 88.18 344.15 C 116.25 344.15 139.01 366.91 139.01 394.99 C 139.01 398.23 138.71 401.41 138.12 404.48 C 167.91 423.38 203.23 434.33 241.12 434.33 C 347.46 434.33 433.67 348.12 433.67 241.78 C 433.67 135.44 347.46 49.23 241.12 49.23 C 134.78 49.23 48.57 135.44 48.57 241.78 C 48.57 256.59 50.24 271 53.4 284.84 C 54.24 288.51 53.95 292.03 52.55 295.29 C 49.84 305.23 40.76 312.53 29.97 312.53 C 20.18 312.53 11.8 306.52 8.3 298 C 7.63 296.69 7.11 295.27 6.77 293.77 C 3.07 277.03 1.12 259.63 1.12 241.78 C 1.12 109.23 108.57 1.78 241.12 1.78 Z"
+        android:fillType="evenOdd"
+        android:fillColor="@android:color/system_accent1_400" />
+    <path
+        android:pathData="M 241.12 175.52 C 291.81 175.52 332.9 216.61 332.9 267.3 C 332.9 280.74 330.01 293.5 324.82 305 C 324.04 306.73 322.51 307.83 320.62 308.02 C 318.73 308.2 317.01 307.42 315.91 305.87 C 299.27 282.52 271.97 267.3 241.12 267.3 C 210.26 267.3 182.96 282.52 166.33 305.87 C 165.22 307.42 163.51 308.2 161.62 308.02 C 159.73 307.83 158.2 306.73 157.42 305 C 152.23 293.5 149.34 280.74 149.34 267.3 C 149.34 216.61 190.43 175.52 241.12 175.52 Z"
+        android:fillType="evenOdd"
+        android:fillColor="@android:color/system_accent1_100" />
+</vector>
