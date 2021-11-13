@@ -47,6 +47,8 @@
     <string name="volume_rocker_music_controls_summary">Long press volume buttons to switch tracks while screen off</string>
 
     <!-- Monet Engine -->
+    <string name="monet_title">Monet Extra</string>
+    <string name="monet_customization">Customization</string>
     <string name="monet_engine_custom_color_title">Use custom color</string>
     <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
     <string name="monet_engine_color_override_title">Custom color</string>

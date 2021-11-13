@@ -78,7 +78,7 @@ public class theming extends SettingsPreferenceFragment implements OnPreferenceC
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.display_settings);
+        addPreferencesFromResource(R.xml.monet);
 
         mContext = getActivity();
 
