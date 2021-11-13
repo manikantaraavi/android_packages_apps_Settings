@@ -131,12 +131,6 @@
             android:summary="@string/force_high_refresh_rate_desc"
             settings:controller="com.android.settings.display.ForcePeakRefreshRatePreferenceController" />
 
-         <org.proton.support.preference.SystemSettingSwitchPreference
-            android:key="use_old_mobiletype"
-            android:title="@string/use_old_mobiletype_title"
-            android:summary="@string/use_old_mobiletype_summary"
-            android:defaultValue="true" />            
-
         <SwitchPreference
             android:key="touch_sensitivity"
             android:title="@string/touch_sensitivity_title"
