@@ -108,12 +108,6 @@
         settings:userRestriction="no_config_vpn"
         settings:useAdminDisabledSummary="true" />
 
-    <org.proton.support.preference.CardviewPreference
-        android:key="traffic"
-        android:fragment="com.android.settings.Traffic"
-        android:icon="@drawable/ic_traffic"
-        android:title="@string/traffic_title" />
-
     <com.android.settings.network.PrivateDnsModeDialogPreference
         android:key="private_dns_settings"
         android:title="@string/select_private_dns_configuration_title"
