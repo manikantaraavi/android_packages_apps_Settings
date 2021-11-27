@@ -134,6 +134,20 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="custom_statusbar_settings_category"
+        android:title="@string/custom_statusbar_settings">
+
+    <Preference
+        android:key="systemui_tuner_statusbar"
+        android:title="@string/statusbar_items_category">
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.systemui"
+            android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
+    </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:title="@string/category_name_display_controls">
 
         <com.android.settings.widget.PrimarySwitchPreference
