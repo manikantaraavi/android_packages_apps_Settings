@@ -79,6 +79,12 @@
         android:summary="@string/descendant_idle_manager_summary"
         android:defaultValue="true" />
 
+         <org.proton.support.preference.SystemSettingSwitchPreference
+            android:key="qs_show_battery_estimate"
+            android:title="@string/qs_show_battery_estimate_title"
+            android:summary="@string/qs_show_battery_estimate_summary"
+            android:defaultValue="true"/>
+
          <org.proton.support.preference.SystemSettingListPreference
             android:key="status_bar_battery_style"
             android:title="@string/status_bar_battery_style_title"
