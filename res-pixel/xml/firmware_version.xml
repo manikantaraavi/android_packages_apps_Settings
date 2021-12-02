@@ -5,10 +5,10 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
-    <!-- ProtonAOSP logo -->
+    <!-- Project-Zephyrus logo -->
     <PreferenceScreen
-        android:key="proton_logo"
-        android:layout="@layout/proton_logo"
+        android:key="zep_logo"
+        android:layout="@layout/Zep_logo"
         android:selectable="false"/>
 
     <!-- Android version -->
