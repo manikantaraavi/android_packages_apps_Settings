@@ -195,8 +195,8 @@
     <!-- Touch sounds -->
     <SwitchPreference
         android:key="touch_sounds"
-        android:title="@string/touch_sounds_title"
-        android:order="-30"/>
+        android:order="-30"
+        android:title="@string/touch_sounds_title" />
 
     <!-- In-call feedback -->
     <org.proton.support.preference.SystemSettingSwitchPreference
