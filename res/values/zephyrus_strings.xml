@@ -345,4 +345,8 @@
     <string name="haptic_feedback_enable">Enable haptic feedback</string>
     <string name="haptic_on_qs_title">QS tiles</string>
     <string name="haptic_on_qs_summary">Do haptic feedback when clicked qs tiles</string>
+
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Brightness control</string>
+    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
 </resources>
