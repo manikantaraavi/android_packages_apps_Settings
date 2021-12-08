@@ -55,7 +55,7 @@ public class EdgeLightningSettings extends SettingsPreferenceFragment implements
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.configure_notification_settings);
+        addPreferencesFromResource(R.xml.edge_lighting);
         final ContentResolver resolver = getContentResolver();
         final int accentColor = getAccentColor();
 
