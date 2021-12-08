@@ -53,7 +53,7 @@
     <string name="combined_status_bar_signal_icons_summary">Enable combined signal icons in status bar.\nRequires a SystemUI restart</string>
 
     <!-- Pulse notifications lightning -->
-    <string name="pulse_ambient_light_title">Ambient edge lightning</string>
+    <string name="pulse_ambient_light_title">Edge lighting</string>
     <string name="pulse_ambient_light_summary">Light ambient edges for pulsing notifications</string>
     <string name="ambient_notification_light_enabled_title">Show on AOD</string>
     <string name="ambient_notification_light_enabled_summary">Keep showing edge lightning on AOD</string>
