@@ -35,7 +35,9 @@
             android:key="auto_brightness_entry"
             android:title="@string/auto_brightness_title"
             android:fragment="com.android.settings.display.AutoBrightnessSettings"
-            settings:controller="com.android.settings.display.AutoBrightnessPreferenceController"/>
+            settings:controller="com.android.settings.display.AutoBrightnessPreferenceController"
+            settings:useAdminDisabledSummary="true"
+            settings:userRestriction="no_config_brightness" />
 
         <org.proton.support.preference.SecureSettingSwitchPreference
             android:key="qs_show_brightness"
@@ -134,10 +136,10 @@
     <PreferenceCategory
         android:title="@string/category_name_display_controls">
 
-        <Preference
+        <com.android.settings.widget.PrimarySwitchPreference
+            android:fragment="com.android.settings.display.SmartAutoRotatePreferenceFragment"
             android:key="auto_rotate"
             android:title="@string/accelerometer_title"
-            android:fragment="com.android.settings.display.SmartAutoRotatePreferenceFragment"
             settings:keywords="@string/keywords_auto_rotate"
             settings:controller="com.android.settings.display.SmartAutoRotatePreferenceController"/>
 
