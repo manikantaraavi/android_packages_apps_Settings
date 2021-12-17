@@ -28,4 +28,11 @@
     <string name="other_controls_title">Other controls</string>
     <string name="fullscreen_gestures_title">Fullscreen gestures</string>
     <string name="fullscreen_gestures_summary">Hide navbar pill and keyboard space</string>
+
+    <!-- Custom Signal bar icons -->
+    <string name="custom_signal_bar_title">Signal</string>
+
+    <!-- Custom Wi-Fi bar icons -->
+    <string name="custom_wifi_bar_title">Wi-Fi</string>
+
 </resources>
