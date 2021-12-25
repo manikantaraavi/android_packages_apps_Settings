@@ -19,7 +19,7 @@
     <string name="short_label">Short</string>
     <string name="long_label">Long</string>
 
-    <string name="custom_statusbar_settings">Status Bar</string>
+    <string name="custom_statusbar_settings">Status Bar and Fonts</string>
 
     <!-- Status bar items -->
     <string name="statusbar_items_category">Status bar items</string>

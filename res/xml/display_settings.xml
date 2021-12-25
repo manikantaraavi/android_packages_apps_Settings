@@ -157,6 +157,14 @@
             android:summary="@string/notification_material_dismiss_button_summary"
             android:defaultValue="false" />
 
+        <ListPreference
+            android:key="android.theme.customization.font"
+            android:title="@string/theme_customization_font_title"/>
+
+       <ListPreference
+            android:key="android.theme.customization.icon_pack"
+            android:title="@string/theme_customization_icon_pack_title"/>
+
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -239,14 +247,6 @@
             android:title="@string/wake_when_plugged_or_unplugged_title"
             android:summary="@string/wake_when_plugged_or_unplugged_summary"
             android:defaultValue="true" />
-
-        <ListPreference
-            android:key="android.theme.customization.font"
-            android:title="@string/theme_customization_font_title"/>
-
-       <ListPreference
-            android:key="android.theme.customization.icon_pack"
-            android:title="@string/theme_customization_icon_pack_title"/>
 
     <org.proton.support.preference.CardviewPreference
         android:key="monet"
