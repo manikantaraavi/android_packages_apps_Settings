@@ -143,12 +143,6 @@
             android:key="ambient_display_custom"
             android:title="@string/advanced_settings" />
 
-         <org.proton.support.preference.SystemSettingSwitchPreference
-            android:key="doze_pulse_on_double_tap"
-            android:title="@string/double_tap_on_doze_to_wake_title"
-            android:summary="@string/double_tap_on_doze_to_wake_summary"
-            android:defaultValue="true" />
-
     </PreferenceCategory>
 
     <!-- Work profile settings are at the bottom with high order value to avoid users thinking that
