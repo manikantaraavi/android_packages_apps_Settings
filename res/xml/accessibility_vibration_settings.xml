@@ -53,10 +53,13 @@
             settings:controller="com.google.android.settings.accessibility.NotificationVibrationTogglePreferenceController"
             settings:keywords="@string/keywords_notification_vibration" />
 
-        <SwitchPreference
-            android:key="touch_vibration_switch_preference"
+        <com.android.settings.preference.SystemSettingPrimarySwitchPreference
+            android:key="haptic_feedback_enabled"
+            android:fragment="com.android.settings.sound.HapticSettings"
             android:title="@string/accessibility_touch_vibration_title"
-            settings:controller="com.google.android.settings.accessibility.HapticFeedbackTogglePreferenceController"
+            android:summary="@string/touch_haptic_summary"
+            android:defaultValue="true"
+            settings:controller="com.android.settings.sound.TouchHapticPreferenceController"
             settings:keywords="@string/keywords_touch_vibration" />
 
     </PreferenceCategory>

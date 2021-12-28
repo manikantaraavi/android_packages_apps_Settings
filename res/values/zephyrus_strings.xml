@@ -342,4 +342,10 @@
     <string name="heads_up_stoplist_title">Stoplist</string>
     <string name="heads_up_blacklist_title">Blacklist</string>
 
+    <string name="haptic_on_switch_title">Settings switch</string>
+    <string name="haptic_on_switch_summary">Do haptic feedback when clicked switches in settings</string>
+    <string name="haptic_on_statusbar_title">Status bar</string>
+    <string name="haptic_on_statusbar_summary">Do haptic feedback when clicked status bar</string>
+    <string name="haptic_disabled">Disabled</string>
+
 </resources>

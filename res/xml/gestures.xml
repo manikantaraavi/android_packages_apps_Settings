@@ -131,6 +131,20 @@
         android:defaultValue="true" />
 
     <org.proton.support.preference.SystemSettingSwitchPreference
+        android:defaultValue="true"
+        android:key="haptic_on_switch"
+        android:title="@string/haptic_on_switch_title"
+        android:summary="@string/haptic_on_switch_summary"
+        android:dependency="haptic_feedback_enabled" />
+
+    <org.proton.support.preference.SystemSettingSwitchPreference
+        android:defaultValue="true"
+        android:key="haptic_on_statusbar"
+        android:title="@string/haptic_on_statusbar_title"
+        android:summary="@string/haptic_on_statusbar_summary"
+        android:dependency="haptic_feedback_enabled" />
+
+    <org.proton.support.preference.SystemSettingSwitchPreference
 	android:key="volume_button_music_control"
         android:summary="@string/volume_rocker_music_controls_summary"
         android:title="@string/volume_rocker_music_controls_title"
