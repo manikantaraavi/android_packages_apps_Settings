@@ -338,4 +338,11 @@
     <string name="heads_up_stoplist_title">Stoplist</string>
     <string name="heads_up_blacklist_title">Blacklist</string>
 
+    <string name="haptic_on_statusbar_title">Status bar</string>
+    <string name="haptic_on_statusbar_summary">Do haptic feedback when clicked status bar</string>
+    <string name="haptic_disabled">Disabled</string>
+    <string name="touch_haptic_summary">Customize haptic feedback for system widgets</string>
+    <string name="haptic_feedback_enable">Enable haptic feedback</string>
+    <string name="haptic_on_qs_title">QS tiles</string>
+    <string name="haptic_on_qs_summary">Do haptic feedback when clicked qs tiles</string>
 </resources>

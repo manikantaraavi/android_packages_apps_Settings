@@ -53,12 +53,6 @@
             settings:controller="com.google.android.settings.accessibility.NotificationVibrationTogglePreferenceController"
             settings:keywords="@string/keywords_notification_vibration" />
 
-        <SwitchPreference
-            android:key="touch_vibration_switch_preference"
-            android:title="@string/accessibility_touch_vibration_title"
-            settings:controller="com.google.android.settings.accessibility.HapticFeedbackTogglePreferenceController"
-            settings:keywords="@string/keywords_touch_vibration" />
-
     </PreferenceCategory>
 
     <com.android.settingslib.widget.FooterPreference

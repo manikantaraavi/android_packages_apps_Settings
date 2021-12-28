@@ -177,6 +177,16 @@
         android:ringtoneType="alarm"
         android:order="-60"/>
 
+    <com.android.settings.preference.SystemSettingPrimarySwitchPreference
+        android:key="haptic_feedback_enabled"
+        android:fragment="com.android.settings.sound.HapticSettings"
+        android:title="@string/accessibility_touch_vibration_title"
+        android:summary="@string/touch_haptic_summary"
+        android:defaultValue="true"
+        settings:controller="com.android.settings.sound.TouchHapticPreferenceController"
+        settings:keywords="@string/keywords_touch_vibration"
+        android:order="-55" />
+
     <!-- Dial pad tones -->
     <SwitchPreference
         android:key="dial_pad_tones"
