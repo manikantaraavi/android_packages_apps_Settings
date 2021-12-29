@@ -176,28 +176,24 @@
     <string name="lockscreen_media_art_options_title">Обложка альбома на заблокированном экране</string>
 
     <!-- Lock screen visualizer -->
-    <string name="enable_visualizer">Enable Visualizer</string>
-    <string name="lockscreen_visualizer_title">Visualizer</string>
-    <string name="lockscreen_visualizer_enable">Music Visualizer</string>
-    <string name="lockscreen_visualizer_enable_summary">Show visualizer bars while playing music</string>
-    <string name="lockscreen_autocolor_title">Automatic color</string>
-    <string name="lockscreen_autocolor_summary">Sync color with lockscreen background</string>
-    <string name="lockscreen_autocolor_lavalamp">Requires lava lamp disabled</string>
-    <string name="lockscreen_lavalamp_title">Lava lamp</string>
-    <string name="lockscreen_lavalamp_summary">Use a smooth lava lamp style color blend animation</string>
-    <string name="lockscreen_lavalamp_speed_title">Color blend interval</string>
-    <string name="lockscreen_solid_lines_category">Solid Lines</string>
-    <string name="lockscreen_solid_units_count_title">Lines count</string>
-    <string name="lockscreen_solid_fudge_factor_title">Sanity level</string>
-    <string name="lockscreen_solid_units_opacity_title">Lines opacity</string>
+    <string name="enable_visualizer">Включить визуализатор</string>
+    <string name="lockscreen_visualizer_title">Визуализатор</string>
+    <string name="lockscreen_visualizer_enable">Визуализатор музыки</string>
+    <string name="lockscreen_visualizer_enable_summary">Показывать полосы визуализатора во время проигрывания музыки</string>
+    <string name="lockscreen_autocolor_title">Автоматический цвет</string>
+    <string name="lockscreen_autocolor_summary">Синхронизировать цвет с фоном экрана блокировки</string>
+    <string name="lockscreen_autocolor_lavalamp">Требует отключения лава лампы</string>
+    <string name="lockscreen_lavalamp_title">Лава лампа</string>
+    <string name="lockscreen_lavalamp_summary">Использовать анимацию смешивания цвета в стиле лава лампы</string>
+    <string name="lockscreen_lavalamp_speed_title">Интервал смешивания цвета</string>
+    <string name="lockscreen_solid_lines_category">Сплошные линии</string>
+    <string name="lockscreen_solid_units_count_title">Количество линий</string>
+    <string name="lockscreen_solid_fudge_factor_title">Сила линий</string>
+    <string name="lockscreen_solid_units_opacity_title">Непрозрачность линий</string>
 
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">Значок 4G</string>
     <string name="show_fourg_icon_summary">Отображать значок 4G в значке сигнала вместо LTE</string>
-
-    <!-- QuickSettings haptic feedback -->
-    <string name="quick_settings_vibrate_title">Вибрация при нажатии</string>
-    <string name="quick_settings_vibrate_summary">Вибрация при прикосновении к значкам</string>
 
     <!-- Custom carrier label and position -->
     <string name="carrier_label_settings_title">Настройки ярлыка оператора</string>
@@ -321,4 +317,17 @@
     <string name="dialog_delete_message">Удалить выбранный элемент?</string>
     <string name="add_heads_up_blacklist_summary">Запретить всплывающие уведомления от этих приложений</string>
     <string name="heads_up_blacklist_title">Черный список</string>
+	
+    <string name="haptic_on_statusbar_title">Строка состояния</string>
+    <string name="haptic_on_statusbar_summary">Применять тактильный отклик при нажатии на строку состояния</string>
+    <string name="haptic_disabled">Выключено</string>
+    <string name="touch_haptic_summary">Настройте тактильный отклик для системных виджетов</string>
+    <string name="haptic_feedback_enable">Включить тактильный отклик</string>
+    <string name="haptic_on_qs_title">Плитки быстрых настроек</string>
+    <string name="haptic_on_qs_summary">Применять тактильный отклик при нажатии на плитки в быстрых настройках</string>
+
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Управление яркостью</string>
+    <string name="status_bar_toggle_brightness_summary">Регулировка яркости посредством перемещения пальца по строке состояния</string>
+
 </resources>
