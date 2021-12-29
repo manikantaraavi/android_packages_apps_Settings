@@ -40,6 +40,12 @@
         android:fragment="com.android.settings.CarrierLabel"
         android:title="@string/carrier_label_settings_title" />
 
+        <org.proton.support.preference.SecureSettingSwitchPreference
+            android:key="qstile_requires_unlocking"
+            android:title="@string/qstile_requires_unlocking_title"
+            android:summary="@string/qstile_requires_unlocking_summary"
+            android:defaultValue="true" />
+
         <com.android.settingslib.RestrictedSwitchPreference
             android:key="security_lockscreen_add_users_when_locked"
             android:title="@string/user_add_on_lockscreen_menu"
