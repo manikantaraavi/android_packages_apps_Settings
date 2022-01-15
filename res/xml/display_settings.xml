@@ -293,5 +293,11 @@
             android:key="vr_display_pref"
             android:fragment="com.android.settings.display.VrDisplayPreferencePicker"
             android:title="@string/display_vr_pref_title" />
+
+        <org.proton.support.preference.SystemSettingSwitchPreference
+        android:key="use_wp_zoom"
+        android:title="@string/use_wp_zoom_title"
+        android:summary="@string/use_wp_zoom_summary"
+        android:defaultValue="false" />
     </PreferenceCategory>
 </PreferenceScreen>
